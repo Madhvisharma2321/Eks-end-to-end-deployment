@@ -28,7 +28,7 @@ kubectl apply -f service.yaml
 kubectl get pods
 kubectl get svc
 
-###Install using Fargate
+### Install using Fargate
 eksctl create cluster --name demo-cluster --region us-east-1 --fargate
 
 
